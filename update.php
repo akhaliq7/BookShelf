@@ -84,7 +84,7 @@ $data = $result->fetchArray(); // set the row in $data
                     <input type="number" id="isbn10" name="isbn10" value="<?php echo $data['isbn10'];?>">
                 </div>
                 <div class="pure-control-group">
-                    <label for="isbn13">ISBN-10</label>
+                    <label for="isbn13">ISBN-13</label>
                     <input type="number" id="isbn13" name="isbn13" value="<?php echo $data['isbn13'];?>">
                 </div>
                 <div class="pure-control-group">

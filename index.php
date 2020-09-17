@@ -113,7 +113,7 @@ if(isset($_POST['submit'])) {
                     <input type="number" id="isbn10" name="isbn10" placeholder="ISBN-10">
                 </div>
                 <div>
-                    <label for="isbn13">ISBN-10</label>
+                    <label for="isbn13">ISBN-13</label>
                     <input type="number" id="isbn13" name="isbn13" placeholder="ISBN-13">
                 </div>
                 <div>
