@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #000;
+  font-family: "Nunito Semibold";
+  text-align: center;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 10px;
+}
+.wrapper .headerGrid {
+  grid-column: 1/12;
+  grid-row: 1/2;
+}
+.wrapper .navGrid {
+  grid-column: 12/13;
+  grid-row: 1/2;
+}
+.wrapper .mainGrid {
+  grid-column: 1/13;
+  grid-row: 2/8;
+}
+.wrapper .mainTableGrid {
+  grid-column: 1/13;
+}
+.wrapper .footerGrid {
+  grid-column: 1/13;
+  grid-row: 8/9;
+}
+
+/* Variables for index page */
+/* h1 */
+.headerFlexParent {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+/* p (nav) */
+.navFlexParent {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+/* p (footer) */
+.footerFlexParent {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: #f9f7fc;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.h1 {
+  color: navy;
+  font-family: verdana;
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 10px;
+}
+
+.formGrid {
+  grid-column: 3/10;
+}
+
+form {
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #dae1e7;
+  box-shadow: 0 3px 6px 0px #dae1e7;
+}
+
+fieldset {
+  height: 100%;
+}
+fieldset div {
+  display: flex;
+  flex-direction: column;
+}
+fieldset div:first-child {
+  margin-top: 40px;
+}
+fieldset div label {
+  font-weight: bold;
+  color: #21183c;
+  margin-bottom: 8px;
+  padding: 6px;
+  text-align: left;
+  width: 90%;
+  align-self: center;
+}
+fieldset div input {
+  color: #21183c;
+  margin-bottom: 24px;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #dae1e7;
+  box-shadow: 0 1px 4px #dae1e7;
+  font-size: 16px;
+  width: 90%;
+  align-self: center;
+}
+fieldset div button {
+  color: #fff;
+  background-color: #3490dc;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bolder;
+  font-size: 16px;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.nav {
+  background-color: #f9f7fc;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.a {
+  color: navy;
+  font-family: verdana;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.a2 {
+  color: navy;
+  font-family: verdana;
+  text-decoration: none;
+  border: 1px solid black;
+  background-color: #fff;
+  text-decoration: uppercase;
+  padding: 0.3rem;
+}
+.a2:hover {
+  background-color: #cddafd;
+}
+
+.footer {
+  background-color: navy;
+  color: white;
+  font-family: verdana;
+  font-size: smaller;
+  font-style: italic;
+}
+
+.mainTable {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  background-color: white;
+  border: 4px solid navy;
+}
+
+td {
+  border-bottom: 1px navy dashed;
+  border-left: 1px navy solid;
+  font-family: Verdana;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 5rem;
+}
+
+th {
+  border-bottom: 2px navy solid;
+  border-left: 1px navy solid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+thead {
+  background-color: #ECEDF2;
+}
+
+.rightjust {
+  text-align: right;
+}
+
+h2,
+h3,
+th {
+  color: #0e0b2e;
+  font-family: verdana;
+  background-color: #6accf3;
+  text-transform: uppercase;
+  padding: 8px;
+}
+
+tbody:nth-child(even) tr {
+  background-color: #f2f2f2;
+}
+tbody tr:hover {
+  background-color: #ddd;
+}
+
+/*# sourceMappingURL=main.css.map */

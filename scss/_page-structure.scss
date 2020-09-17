@@ -1,0 +1,24 @@
+//styles
+.wrapper {
+    @include grid($displayGrid, $gridColumns, $gridRows, $gridGap);
+    .headerGrid {
+        grid-column: 1/12;
+        grid-row: 1/2;
+    }
+    .navGrid {
+        grid-column: 12/13;
+        grid-row: 1/2;
+    }
+    .mainGrid {
+        grid-column: 1/13;
+        grid-row: 2/8;
+    }
+    .mainTableGrid {
+        grid-column: 1/13;
+        // grid-row: 2/8;
+    }
+    .footerGrid {
+        grid-column: 1/13;
+        grid-row: 8/9;
+    }
+}

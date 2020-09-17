@@ -1,0 +1,22 @@
+/* Variables for index page */
+
+
+/* h1 */
+
+.headerFlexParent {
+    @include flex($displayFlex, $justifyContentFlex, $alignItemsFlex);
+}
+
+
+/* p (nav) */
+
+.navFlexParent {
+    @include flex($displayFlex, $justifyContentFlex, $alignItemsFlex);
+}
+
+
+/* p (footer) */
+
+.footerFlexParent {
+    @include flex($displayFlex, $justifyContentFlex, $alignItemsFlex);
+}

@@ -1,0 +1,57 @@
+.mainGrid {
+    @include grid($displayGrid, $gridColumns, $gridRows, $gridGap);
+}
+
+.formGrid {
+    grid-column: 3/10;
+}
+
+form {
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #dae1e7;
+    box-shadow: 0 3px 6px 0px #dae1e7;
+}
+
+fieldset {
+    height: 100%;
+    div {
+        display: flex;
+        flex-direction: column;
+        &:first-child {
+            margin-top: 40px;
+        }
+        label {
+            font-weight: bold;
+            color: #21183c;
+            margin-bottom: 8px;
+            padding: 6px;
+            text-align: left;
+            width: 90%;
+            align-self: center;
+        }
+        input {
+            color: #21183c;
+            margin-bottom: 24px;
+            padding: 6px;
+            border-radius: 4px;
+            border: 1px solid #dae1e7;
+            box-shadow: 0 1px 4px #dae1e7;
+            font-size: 16px;
+            width: 90%;
+            align-self: center;
+        }
+        button {
+            color: #fff;
+            background-color: #3490dc;
+            padding: 8px;
+            border: none;
+            border-radius: 4px;
+            font-weight: bolder;
+            font-size: 16px;
+            align-self: center;
+            margin-bottom: 20px;
+        }
+    }
+}

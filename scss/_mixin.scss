@@ -1,0 +1,20 @@
+//mixins
+@mixin grid($displayGrid, $gridColumns, $gridRows, $gridGap) {
+    display: $displayGrid;
+    grid-template-columns: $gridColumns;
+    grid-auto-rows: $gridRows;
+    grid-gap: $gridGap;
+}
+
+@mixin grid2($displayGrid, $gridColumns, $gridGap) {
+    display: $displayGrid;
+    grid-template-columns: $gridColumns;
+    // grid-auto-rows: $gridRows;
+    grid-gap: $gridGap;
+}
+
+@mixin flex($displayFlex, $justifyContentFlex, $alignItemsFlex) {
+    display: $displayFlex;
+    justify-content: $justifyContentFlex;
+    align-items: $alignItemsFlex;
+}

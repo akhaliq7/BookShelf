@@ -1,0 +1,8 @@
+//variables
+$displayGrid: grid;
+$gridColumns: repeat(12, 1fr);
+$gridRows: minmax(100px, auto);
+$gridGap: 10px;
+$displayFlex: grid;
+$justifyContentFlex: center;
+$alignItemsFlex: center;
