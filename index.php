@@ -25,22 +25,23 @@ if(isset($_POST['submit'])) {
         // isbn13
         echo "Please fill in isbn-13 value <br />";
     }
-    if(empty($_POST['url'])) {
-        // url
-        echo "Please fill in the product's url <br />";
-    }
-    if(empty($_POST['my-price'])) {
-        // our price
-        echo "Please fill in my price <br />";
-    }
-    if(empty($_POST['other-price'])) {
-        // other price
-        echo "Please fill in similar price <br />";
-    }
-    if(empty($_POST['other-price2'])) {
-        // other price 2
-        echo "Please fill in another second similar price <br />";
-    } else {
+    // if(empty($_POST['url'])) {
+    //     // url
+    //     echo "Please fill in the product's url <br />";
+    // }
+    // if(empty($_POST['my-price'])) {
+    //     // our price
+    //     echo "Please fill in my price <br />";
+    // }
+    // if(empty($_POST['other-price'])) {
+    //     // other price
+    //     echo "Please fill in similar price <br />";
+    // }
+    // if(empty($_POST['other-price2'])) {
+    //     // other price 2
+    //     echo "Please fill in another second similar price <br />";
+    // } 
+    else {
         // Includes database connection
         include "install.php";
 
